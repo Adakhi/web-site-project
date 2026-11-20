@@ -415,7 +415,7 @@ body {
 @media (max-width: 425px) {
 
     .conteiner {
-        min-width: fit-content;
+        min-width: min(fit-content, 100%);
     }
     .navigation {
         flex-direction: column;
