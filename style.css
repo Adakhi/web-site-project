@@ -412,10 +412,11 @@ body {
     color: #7a7474;
     font-weight: 800;
 }
-@media (max-width: 425px) {
+@media (max-width: 768px) {
 
     .conteiner {
         min-width: min(fit-content, 100%);
+        overflow-x: hidden;
     }
     .navigation {
         flex-direction: column;
@@ -461,10 +462,4 @@ body {
         text-align: center;
     }
 
-}
-@media (max-width: 768px) {
-
-    .conteiner {
-        min-width: fit-content;
-    }
 }
