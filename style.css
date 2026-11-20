@@ -461,5 +461,34 @@ body {
     .footer {
         text-align: center;
     }
+    .cards-grid {
+        grid-template-columns: auto
+    }
+    .section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .statistics {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards-peoples {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback {
+        flex-direction: column;
+        align-items: center;
+    }
+    .email-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .email-card-btn {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
 }
