@@ -468,6 +468,9 @@ body {
         flex-direction: column;
         align-items: center;
     }
+    .statistics div {
+        text-align: center;  
+    }
     .cards-peoples {
         flex-direction: column;
         align-items: center;
